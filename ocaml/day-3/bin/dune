@@ -1,0 +1,10 @@
+(env
+  (dev
+    (flags (:standard -w -32-8
+           ))))
+
+(executable
+ (public_name day-3)
+ (name main)
+)
+
